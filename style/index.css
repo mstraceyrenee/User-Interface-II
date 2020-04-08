@@ -20,9 +20,37 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
-/*Add fonts */
+/*Add font families */
 *{
     font-family: 'Source Serif Pro', serif;
     font-family: 'Source Sans Pro', sans-serif;
 }
-
+h1{
+    font-family: 'Source Serif Pro';
+    font-size: 48px;
+    font-weight: 700;
+    color: rebeccapurple;
+    margin: 30px;
+    padding-top: 20px;
+}
+a{
+    font-family: 'Source Sans Pro';
+    font-size: 24px;
+    text-decoration: none;
+    background-color: thistle;
+    color: rebeccapurple;
+    padding: 10px 20px;
+    border: 1px solid rebeccapurple;
+}
+nav{
+    display: flex;
+    margin: 0 0 20px 50px;
+}
+header{
+    background-color: papayawhip;
+    height: 18vh;
+}
+.photo{
+    width: 100px;
+    height: 150px;
+}
