@@ -19,7 +19,10 @@ time, mark, audio, video {
   font: inherit;  
   vertical-align: baseline;  
 }
-
+/* Changes HTML font size */
+html {
+  font-size: 62.5%;
+}
 /* Adds font families */
 * {
   font-family: 'Source Serif Pro', serif;
@@ -29,7 +32,7 @@ time, mark, audio, video {
 /* Header section */
 h1 {
   font-family: 'Source Serif Pro', serif;
-  font-size: 48px;
+  font-size: 4.8rem;
   font-weight: 700;
   color: rebeccapurple;
   margin: 0 30px 20px;
@@ -37,7 +40,7 @@ h1 {
 }
 a {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
+  font-size: 1.8rem;
   text-decoration: none;
   background-color: thistle;
   color: rebeccapurple;
@@ -45,7 +48,7 @@ a {
   padding: 10px 20px;
   border: 1px solid rebeccapurple;
 }
-a:active {
+nav:first-child {
   background-color: rebeccapurple;
   color: white;
 }
@@ -61,11 +64,11 @@ header {
 /* Introduction section */
 h3 {
   font-family: 'Source Serif Pro', serif;
-  font-size: 32px;
+  font-size: 3.2rem;
 }
 button {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
+  font-size: 1.8rem;
   text-align: center;
   background-color: thistle;
   color: rebeccapurple;
@@ -76,7 +79,7 @@ button {
 }
 p {
   font-family: 'Source Serif Pro', serif;
-  font-size: 22px;
+  font-size: 2.2rem;
 }
 #profile {
   width: 50%;
@@ -134,5 +137,5 @@ footer div {
   padding-top: 50px;
 }
 footer p {
-  font-size: 24px;
+  font-size: 2.4rem;
 }
